@@ -1,1 +1,23 @@
-.ipynb_checkpoints
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Python bytecode and cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment files (sensitive info)
+.env
+venv/
+env/
+
+# Large ML files (Checkpoints and Weights)
+# It is better to store these in S3, not Git
+*.pt
+*.bin
+*.pth
+/output/
+/models/
+
+# SageMaker specific
+user-default-efs.ipynb_checkpoints
