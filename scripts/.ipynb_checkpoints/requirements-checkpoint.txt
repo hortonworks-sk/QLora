@@ -1,7 +1,0 @@
-# requirements.txt
-transformers
-datasets
-peft
-bitsandbytes
-accelerate
-trl # SFTTrainer is from the TRL library
